@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background-position: center;
+    background-color: white;
+}
+  
+h1 {
+    font-family: 'East Sea Dokdo', cursive;
+    text-align: flex;
+    color: black;
+    font-size: 90px;
+    padding: 0;
+    margin: 0;
+}
+  
+div {
+    text-align: center;
+}
+
+button {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 36px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px 90px 0px 90px;
+    width: 15%;
+    max-width: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 60%;
+  }
+  
+  .close {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+  }
+  
+  .close:hover, .close:focus {
+    color: #273342;
+    text-decoration: none;
+    cursor: default;
+  }
+  
+  .modal-header {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1px 0px 0px 0px;
+    background-color: white;
+    color: #273342;
+    text-decoration: underline;
+  }
+ 
+  .modal-body {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 25px;
+    border:2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 180px;
+    text-align:center;
+    font-weight:600;
+  }
+
+  .orders {
+
+  }
