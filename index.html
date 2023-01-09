@@ -7,27 +7,67 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
     <title>Sushi Chef</title>
+    
 </head>
 <body>
     <header>
         <h1>SUSHI CHEF</h1>
+        <div>
+            <button class="button" id="gameStart">Start</button>
+            <button class="button" id="myInstructions">Instructions</button>
+            <div id="myModal" class="modal">
+                
+                <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">X</span>
+                    <h2>Instructions</h2>
+                </div>
+                <div id="myModal" class="modal"></div>
+                <div class="modal-body">
+                    <p> The head chef will call out the sushi order. Match the correct sushi image to the sushi word that's being called out. Good luck and have fun!</p>
+                    <p id="TIP">TIP: Sake (Salmon), Maguro (Tuna), Tamago (Egg), Kani (Crabmeat), Unagi (Eel), Ebi (Shrimp), Ikura (Fish Eggs), Uni (Sea Urchin)</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="button" id="playagainbtn">PLAY AGAIN!</button>
+        </div>
     </header>
-    <img src="https://media.istockphoto.com/id/1024128136/vector/japanese-on-the-go-shushi-restaurant-stall-decorated-with-rolls-chopsticks-on-a-dish-asian.jpg?s=612x612&w=0&k=20&c=91HR8PafzOrzsHp2Ogoa0-f88hD0s-GrhGo4-oCwZDk=">
-    <div>
-        <button class="button" id="gameStart">Start</button>
-        <button class="button" id="myInstructions">Instructions</button>
-        <div id="myModal" class="modal">
-          
-            <div class="modal-content">
-              <div class="modal-header">
-                <span class="close">X</span>
-                <h2>Instructions</h2>
-              </div>
-              <div class="modal-body">
-                <p>Have what it takes to become the best sushi chef? The head chef will call out the orders that are flowing in throughout the shift and your job is to make sure all the orders are correct by selecting the corresponding image. The head chef will overlook a few mistakes but if you mess up more than three times, you're out the kitchen!</p>
-              </div><div id="myModal" class="modal">
-        <div class="orders"><p>You have a new order! Customer wants... </p></div>
+    <img id="wallpaper" src="https://media.istockphoto.com/id/1024128136/vector/japanese-on-the-go-shushi-restaurant-stall-decorated-with-rolls-chopsticks-on-a-dish-asian.jpg?s=612x612&w=0&k=20&c=91HR8PafzOrzsHp2Ogoa0-f88hD0s-GrhGo4-oCwZDk=">
+    <div class="order-area">
+        <div class="orders" id="order-display">
+            <p>New Order!</p>
+        </div>
+        <div><button class="button" id="nextbutton">Next</button></div>
     </div>
-    <script src="js/app.js"></script>
-</body>
+    <div>
+        <div class="container" id="gamecontainer">
+            <div class="box">
+                <img id="Sake" src="images/sake.png">
+            </div>
+            <div class="box">
+                <img id="Maguro" src="images/maguro.png">
+            </div>
+            <div class="box">
+                <img id="Tamago" src="images/tamago.png">
+            </div>
+            <div class="box">
+                <img id="Kani" src="images/kani.png">
+            </div>
+            <div class="box">
+                <img id="Unagi" src="images/unagi.png">
+            </div>
+            <div class="box">
+                <img id="Ebi" src="images/ebi.png">
+            </div>
+            <div class="box">
+                <img id="Ikura" src="images/ikura.png">
+            </div>
+            <div class="box">
+                <img id="Uni" src="images/uni.png">
+            </div>
+        </div>
+    </div>
+        <script src="js/app.js"></script>
+    </body>
 </html>

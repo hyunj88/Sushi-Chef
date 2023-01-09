@@ -1,7 +1,7 @@
 # Sushi-Chef
 
 Have what it takes to become the best sushi chef?
-The head chef will call out the orders that are flowing in throughout the shift and your job is to make sure all the orders are correct by selecting the corresponding image. The head chef will overlook a few mistakes but if you mess up more than three times, you're out the kitchen!
+The head chef will call out the sushi order and your job is to make sure the order is correct by selecting the matching image. Make a mistake and you're out the kitchen!
 
 ** Technologies Used ** 
 
