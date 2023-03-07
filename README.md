@@ -24,3 +24,5 @@ The head chef will call out the sushi order and your job is to make sure the ord
 - select wrong image, that order is ruined move on to next order
 - player is allowed up to 3 mistakes
 - more than three mistakes, you are done for the shift. game over!
+
+![Wireframe Game1](https://user-images.githubusercontent.com/112126759/209260898-3a6e7582-bc78-4413-ba95-b86d4f95a9ad.png)
